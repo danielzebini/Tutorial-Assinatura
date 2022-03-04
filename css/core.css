@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+/* .checklist {
+  list-style-image: url("../img/checklist.svg");
+} */
