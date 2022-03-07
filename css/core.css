@@ -7,6 +7,37 @@ body {
   color: #333;
 }
 
-/* .checklist {
-  list-style-image: url("../img/checklist.svg");
-} */
+/* Stars */
+
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.star-rating input {
+  display: none;
+}
+.star-rating > label {
+  padding: 0 8px;
+  color: #f2c94c;
+  cursor: pointer;
+}
+.star-rating label:active::before {
+  transform: scale(1.1);
+}
+.star-rating label::before {
+  content: "\2606";
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+}
+
+.star-rating input:checked ~ label::before,
+.star-rating label:hover ~ label::before,
+.star-rating label:hover::before {
+  content: "\2605";
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.star-rating label:hover::before {
+  color: #dab544;
+}

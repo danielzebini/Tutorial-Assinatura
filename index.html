@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,18 +13,23 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="scroll-smooth">
     <header class="flex justify-center bg-gray-100">
-      <a href="#" title="" class="p-8">
+      <a
+        href="https://cartorioblasco.com.br/"
+        title=""
+        target="_blank"
+        class="p-8 transition-all hover:opacity-80"
+      >
         <img src="./img/logo-cartorio-blasco.png" alt="" class="max-w-full" />
       </a>
     </header>
 
-    <main class="">
-      <section class="">
-        <div class="mx-auto max-w-screen-2xl py-20 px-4">
+    <main>
+      <section>
+        <div class="mx-auto max-w-screen-2xl py-10 px-4 sm:py-16 lg:py-20">
           <div class="text-center">
-            <h1 class="text-4xl font-bold">
+            <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
               TUTORIAL DE ASSINATURA ELETRÔNICA
             </h1>
             <p class="mt-5 text-lg">
@@ -44,7 +49,7 @@
                     1
                   </span>
                 </div>
-                <div class="">
+                <div>
                   <p>
                     Portar um certificado digital válido, seja do tipo
                     <strong>E-notarial</strong> ou
@@ -54,9 +59,9 @@
                     >Ainda não possui um certificado?</strong
                   >
                   <a
-                    href="#"
+                    href="#certificado"
                     title=""
-                    class="mt-5 block w-[248px] rounded-md bg-orange-300 p-3 text-center font-bold text-white"
+                    class="mt-5 block w-[248px] rounded-md bg-orange-300 p-3 text-center font-bold text-white transition-all hover:opacity-80"
                     >ADQUIRIR CERTIFICADO</a
                   >
                 </div>
@@ -73,7 +78,7 @@
                     2
                   </span>
                 </div>
-                <div class="">
+                <div>
                   <p>
                     Portar um documento de identidade recente, preferencialmente
                     <strong>CNH digital</strong> – caso não haja, CNH física,
@@ -99,19 +104,21 @@
 
           <div class="mx-auto mt-10 text-center">
             <a
-              href="#"
+              href="#pareando"
               title=""
-              class="inline-block rounded-md bg-orange-100 py-3 px-5 text-center font-bold text-orange-300 outline outline-1 outline-orange-300"
+              class="inline-block rounded-md bg-orange-100 py-3 px-5 text-center font-bold text-orange-300 outline outline-1 outline-orange-300 transition-all hover:opacity-80"
               >JÁ POSSUO UM CERTIFICADO</a
             >
           </div>
         </div>
       </section>
 
-      <section class="bg-orange-100">
-        <div class="mx-auto max-w-screen-2xl py-20 px-4">
+      <section id="certificado" class="bg-orange-100">
+        <div class="mx-auto max-w-screen-2xl py-10 px-4 sm:py-16 lg:py-20">
           <div class="text-center">
-            <h1 class="text-4xl font-bold">EMITINDO O CERTIFICADO</h1>
+            <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
+              EMITINDO O CERTIFICADO
+            </h1>
             <p class="mt-5 text-lg">
               Caso não possua um certificado digital válido, o Cartório Blasco
               poderá realizar a emissão dele de forma gratuita e online.
@@ -123,7 +130,7 @@
           </div>
 
           <div
-            class="mx-auto mt-16 max-w-[850px] rounded-xl bg-orange-200 p-5 sm:p-10 lg:p-20"
+            class="mx-auto mt-10 max-w-[850px] rounded-xl bg-orange-200 p-5 sm:mt-16 sm:p-10 lg:p-20"
           >
             <div class="flex">
               <div class="mr-5">
@@ -145,10 +152,20 @@
             <div
               class="flex flex-col items-center sm:flex-row sm:justify-center"
             >
-              <a href="#" title="" class="mx-5 my-5 sm:my-10">
+              <a
+                href="https://play.google.com/store/apps/details?id=br.org.enotariado.app&hl=pt_BR&gl=US"
+                title=""
+                target="_blank"
+                class="mx-5 my-5 transition-all hover:opacity-80 sm:my-10"
+              >
                 <img src="./img/google.png" alt="" />
               </a>
-              <a href="#" title="" class="mx-5 mb-5 sm:my-10">
+              <a
+                href="https://apps.apple.com/br/app/e-notariado/id1435236119"
+                title=""
+                target="_blank"
+                class="mx-5 mb-5 transition-all hover:opacity-80 sm:my-10"
+              >
                 <img src="./img/apple.png" alt="" />
               </a>
             </div>
@@ -171,7 +188,7 @@
             </div>
 
             <div class="mt-10 flex justify-center">
-              <ul class="">
+              <ul>
                 <li class="mb-3 flex items-start">
                   <svg
                     width="20"
@@ -186,7 +203,7 @@
                     />
                   </svg>
                   <div class="ml-3">
-                    <span class="">Documento de identidade, que pode ser:</span>
+                    <span>Documento de identidade, que pode ser:</span>
                     <ul class="list-outside list-disc pl-7">
                       <li class="my-2 text-sm">
                         Preferencialmente, CNH digital;
@@ -209,7 +226,7 @@
                     />
                   </svg>
                   <div class="ml-3">
-                    <span class="">Endereço completo:</span>
+                    <span>Endereço completo:</span>
                     <ul class="list-outside list-disc pl-7">
                       <li class="mt-2 text-sm">
                         Inclusive CEP, Bairro, Estado;
@@ -276,9 +293,10 @@
 
             <div class="mt-10 text-center">
               <a
-                href="#"
+                href="https://api.whatsapp.com/send?l=pt-BR&amp;phone=5511985073941&amp;text="
                 title=""
-                class="flex flex-col items-center rounded-md py-[10px] px-5 text-center font-bold text-gray-400 outline outline-2 outline-gray-400 sm:inline-flex sm:flex-row"
+                target="_blank"
+                class="flex flex-col items-center rounded-md py-[10px] px-5 text-center font-bold text-gray-400 outline outline-2 outline-gray-400 transition-all hover:opacity-80 sm:inline-flex sm:flex-row"
               >
                 <svg
                   width="29"
@@ -299,7 +317,7 @@
             </div>
           </div>
 
-          <div class="mx-auto max-w-screen-2xl px-4 pt-20">
+          <div class="mx-auto max-w-screen-2xl px-4 pt-10 sm:pt-16 lg:pt-20">
             <div class="text-center">
               <strong class="mt-5 text-lg">
                 De porte das informações e documento de identidade referidos,
@@ -312,7 +330,7 @@
           </div>
         </div>
 
-        <div class="mx-auto max-w-screen-2xl pb-10">
+        <div class="mx-auto max-w-screen-2xl sm:pb-7 lg:pb-10">
           <div class="flex flex-wrap justify-center">
             <figure class="mx-5 max-w-[216px] pb-10">
               <img src="./img/certificado-1.png" alt="" />
@@ -399,10 +417,10 @@
         </div>
       </section>
 
-      <section class="">
-        <div class="mx-auto max-w-screen-2xl py-20 px-4">
+      <section id="pareando">
+        <div class="mx-auto max-w-screen-xl py-10 px-4 sm:py-16 lg:py-20">
           <div class="text-center">
-            <h1 class="text-4xl font-bold">
+            <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
               INSTALANDO E PAREANDO O PROGRAMA DE LEITURA DO CERTIFICADO
             </h1>
             <p class="mt-5 text-lg">
@@ -418,29 +436,318 @@
               assinatura por celular é restrita ao certificado e-notarial.
             </p>
           </div>
-        </div>
-      </section>
-      <section class="bg-gray-100">
-        <div class="mx-auto max-w-screen-2xl py-20 px-4">
-          <div class="text-left">
-            <h1 class="text-4xl font-bold">ASSINANDO COM O CERTIFICADO</h1>
+
+          <div class="flex flex-col lg:mt-10 lg:flex-row lg:items-center">
+            <div class="mt-10 sm:mx-5 lg:max-w-3xl">
+              <div class="flex">
+                <div class="mr-5">
+                  <span
+                    class="flex h-10 w-10 items-center justify-center rounded-full bg-orange-300 text-xl font-bold text-white"
+                  >
+                    1
+                  </span>
+                </div>
+                <div class="text-lg">
+                  <strong class="block text-xl">Instalação.</strong>
+                  <p>
+                    Instale em no computador a extensão Web PKI, disponível em:
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex flex-col items-center sm:flex-row sm:justify-center"
+              >
+                <a
+                  href="https://chrome.google.com/webstore/detail/web-pki/dcngeagmmhegagicpcmpinaoklddcgon"
+                  title=""
+                  target="_blank"
+                  class="mx-5 my-5 transition-all hover:opacity-80 sm:my-10"
+                >
+                  <img src="./img/chrome-store.png" alt="" />
+                </a>
+              </div>
+              <div class="mt-10 flex">
+                <div class="mr-5">
+                  <span
+                    class="flex h-10 w-10 items-center justify-center rounded-full bg-orange-300 text-xl font-bold text-white"
+                  >
+                    2
+                  </span>
+                </div>
+                <div class="text-lg">
+                  <strong class="block text-xl">Pareamento.</strong>
+                  <p>
+                    Após a instalação da extensão, clique sobre ela para parear
+                    ; em seguida, clique na opção do menu chamada “celulares”, e
+                    selecione “Adicionar”
+                    <br /><br />
+                    Em seguida, vá até seu celular, abra o aplicativo
+                    “e-notariado” e escolha a opção “Computador” ou “Usar no
+                    Computador”. Em seguida, selecione “+”, e aponte a câmera do
+                    celular para o QR code gerado pelo Web PKI. Isso fará com
+                    que o celular seja pareado com o computador.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-10 flex justify-center sm:mx-5">
+              <img src="./img/pareando.png" alt="" />
+            </div>
           </div>
         </div>
       </section>
-      <section class="py-20">
-        <div class="mx-auto max-w-screen-2xl py-20 px-4">
+      <section class="bg-gray-100">
+        <div class="mx-auto max-w-screen-2xl py-10 px-4 sm:py-16 lg:py-20">
+          <div class="text-center lg:text-left">
+            <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
+              ASSINANDO COM O CERTIFICADO
+            </h1>
+          </div>
+          <div class="flex flex-col items-center lg:flex-row">
+            <div class="w-full max-w-screen-sm lg:w-5/12">
+              <p class="mt-10 text-lg">
+                A assinatura digital é realizada em duas etapas, sendo:
+              </p>
+              <div class="mt-10 flex items-center">
+                <div class="mr-5">
+                  <span
+                    class="flex h-10 w-10 items-center justify-center rounded-full bg-orange-300 text-xl font-bold text-white"
+                  >
+                    1
+                  </span>
+                </div>
+                <div class="text-lg">
+                  <p>assinatura pelo certificado digital;</p>
+                </div>
+              </div>
+              <div class="mt-10 flex items-center">
+                <div class="mr-5">
+                  <span
+                    class="flex h-10 w-10 items-center justify-center rounded-full bg-orange-300 text-xl font-bold text-white"
+                  >
+                    2
+                  </span>
+                </div>
+                <div class="text-lg">
+                  <p>
+                    realização da video conferência com o escrevente do Cartório
+                    Blasco
+                  </p>
+                </div>
+              </div>
+              <p class="mt-10 text-lg">
+                Observe que é essencial que a parte assim por certificado e
+                participe da video conferência, sendo considerado incompleta e
+                inválida a escritura se as duas etapas não forem realizadas.
+                <br /><br />
+                As partes receberão, em seus e-mails, links para acesso à video
+                conferência e à assinatura documental.
+              </p>
+              <figure class="mt-10">
+                <figcaption class="mb-5 text-lg leading-7">
+                  <strong>
+                    1. O e-mail para assinatura terá o seguinte layout:
+                  </strong>
+                </figcaption>
+                <img src="./img/assinatura-1.png" alt="" />
+              </figure>
+              <figure class="mt-10">
+                <figcaption class="mb-5 text-lg leading-7">
+                  <strong>
+                    2. Após clicar no botão “assinar documento”, aparecerá a
+                    tela abaixo:
+                  </strong>
+                </figcaption>
+                <img src="./img/assinatura-2.png" alt="" />
+              </figure>
+            </div>
+
+            <div class="hidden w-2/12 self-center lg:block">
+              <div class="m-auto grid w-14 items-center justify-center">
+                <div
+                  class="col-span-full row-span-full h-[1000px] w-px justify-self-center bg-gray-400"
+                ></div>
+                <img
+                  src="./img/logo-blasco-icone.png"
+                  alt=""
+                  class="col-span-full row-span-full bg-gray-100 p-3"
+                />
+              </div>
+            </div>
+
+            <div class="w-full max-w-screen-sm lg:w-5/12">
+              <figure class="mt-10">
+                <figcaption class="mb-5 text-lg leading-7">
+                  <strong>
+                    3. Após clicar no botão “assinar”, aparecerá a opção de
+                    selecionar o certificado digital que a Parte utilizará para
+                    assinar o documento:
+                  </strong>
+                </figcaption>
+                <img src="./img/assinatura-3.png" alt="" />
+              </figure>
+              <p class="mt-10 text-lg">
+                Caso queira assinar pelo certificado e-notarial e ele não
+                apareça listado, realize o pareamento, conforme instrução acima
+                <br /><br />
+                Uma vez selecionado o certificado e-notarial, clique em assinar
+                e verifique seu celular. A autorização é a senha de “acesso do
+                aparelho celular”, a mesma senha utilizada para desbloquear a
+                tela inicial do celular.
+              </p>
+              <figure class="mt-10">
+                <figcaption class="mb-5 text-lg leading-7">
+                  <strong>
+                    4. Após a Parte colocar a senha do celular, a assinatura
+                    estará concluída e aparecerá está imagem:
+                  </strong>
+                </figcaption>
+                <img src="./img/assinatura-4.png" alt="" />
+              </figure>
+              <strong class="mt-10 block text-lg leading-7">
+                Após todas as partes da escritura finalizarem assinatura e vídeo
+                conferência, estando cumpridos todos os requisitos da escritura,
+                o escrevente assinará também e liberará, por e-mail, uma via da
+                certidão (traslado) da escritura para todas as partes
+              </strong>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mx-auto max-w-screen-2xl py-10 px-4 sm:py-16 lg:py-20">
           <div class="text-center">
-            <h1 class="text-4xl font-bold">PESQUISA DE SATISFAÇÃO</h1>
+            <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
+              PESQUISA DE SATISFAÇÃO
+            </h1>
             <p class="mt-5 text-lg">
               Nosso Tutorial te ajudou? seu comentário é muito importante para
               nós.
             </p>
+            <form
+              action=""
+              class="mx-auto mt-10 flex max-w-3xl flex-col sm:mt-16 lg:mt-20"
+            >
+              <fieldset class="star-rating mx-auto">
+                <input type="radio" name="stars" id="star-a" value="5" />
+                <label for="star-a"></label>
+
+                <input type="radio" name="stars" id="star-b" value="4" />
+                <label for="star-b"></label>
+
+                <input type="radio" name="stars" id="star-c" value="3" />
+                <label for="star-c"></label>
+
+                <input type="radio" name="stars" id="star-d" value="2" />
+                <label for="star-d"></label>
+
+                <input type="radio" name="stars" id="star-e" value="1" />
+                <label for="star-e"></label>
+              </fieldset>
+
+              <textarea
+                name=""
+                id=""
+                class="mt-5 h-56 w-full rounded-md border border-gray-400 p-5"
+                placeholder="Comente!"
+              ></textarea>
+              <button
+                type="submit"
+                class="mt-5 ml-auto rounded-md bg-orange-300 p-3 px-5 text-center font-bold text-white transition-all hover:opacity-80"
+              >
+                ENVIAR COMENTÁRIO
+              </button>
+            </form>
           </div>
         </div>
       </section>
     </main>
-    <header class="bg-orange-300 py-20">
-      <div class="mx-auto max-w-screen-2xl">footer</div>
-    </header>
+    <footer class="bg-orange-300">
+      <div class="mx-auto max-w-screen-2xl">
+        <div class="flex flex-col text-center text-white lg:flex-row">
+          <div class="w-full pt-10 lg:w-1/3">
+            <h3 class="mb-5 text-lg underline">CONTATO</h3>
+            <span>
+              11 3881 5050 <br />
+              11 9 7430 4687 <br />
+              atendimento@cartorioblasco.com.br
+            </span>
+          </div>
+          <div class="w-full pt-10 lg:w-1/3">
+            <h3 class="mb-5 text-lg underline">ENDEREÇO</h3>
+            <address class="not-italic">
+              Avenida Brigadeiro Faria Lima, 2859 <br />
+              Itaim Bibi, São Paulo/SP
+            </address>
+          </div>
+          <div class="w-full pt-10 lg:w-1/3">
+            <h3 class="mb-5 text-lg underline">ATENDIMENTO SEDE</h3>
+            <span>
+              Segunda - Sexta <br />
+              09h00 - 17h00
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 flex justify-center bg-orange-600">
+        <a
+          href="https://www.facebook.com/cartorioblasco/"
+          title=""
+          target="_blank"
+          class="py-5 px-2 transition-all hover:opacity-80"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.04004C6.5 2.04004 2 6.53004 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85004C10.44 7.34004 11.93 5.96004 14.22 5.96004C15.31 5.96004 16.45 6.15004 16.45 6.15004V8.62004H15.19C13.95 8.62004 13.56 9.39004 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5879 18.0622 20.3856 19.6099 18.5701C21.1576 16.7546 22.0054 14.4457 22 12.06C22 6.53004 17.5 2.04004 12 2.04004Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://www.instagram.com/cartorioblasco/"
+          title=""
+          target="_blank"
+          class="py-5 px-2 transition-all hover:opacity-80"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://cartorioblasco.com.br/"
+          title=""
+          target="_blank"
+          class="py-5 px-2 transition-all hover:opacity-80"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.28004 9.09 5.11004 7.38 3.00004 4.79C2.63004 5.42 2.42004 6.16 2.42004 6.94C2.42004 8.43 3.17004 9.75 4.33004 10.5C3.62004 10.5 2.96004 10.3 2.38004 10C2.38004 10 2.38004 10 2.38004 10.03C2.38004 12.11 3.86004 13.85 5.82004 14.24C5.46004 14.34 5.08004 14.39 4.69004 14.39C4.42004 14.39 4.15004 14.36 3.89004 14.31C4.43004 16 6.00004 17.26 7.89004 17.29C6.43004 18.45 4.58004 19.13 2.56004 19.13C2.22004 19.13 1.88004 19.11 1.54004 19.07C3.44004 20.29 5.70004 21 8.12004 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
